@@ -13,7 +13,6 @@ SmartWiki is in active development and doesn't provide all features for the mini
 - Search Functionality: Advanced search using vector embeddings for accurate results.
 - Responsive Design: Mobile-friendly interface for accessibility on various devices.
 - Clean architecture: Easy maintainability.
--
 
 ### Vector Embeddings for Advanced Searching
 
