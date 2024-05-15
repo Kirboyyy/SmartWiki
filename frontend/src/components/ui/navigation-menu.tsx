@@ -138,13 +138,4 @@ export {
   NavigationMenuIndicator,
   NavigationMenuViewport,
   SmartWikiNavigationLink
-}const NavigationLink: React.FC<{ to: string }> = ({ to }) => {
-  return <NavigationMenuItem>
-    <Link to={to}>
-      {({ isActive }) => <NavigationMenuLink className={navigationMenuTriggerStyle() + (isActive ? ' font-bold' : '')}>
-        Demo
-      </NavigationMenuLink>
-      }
-    </Link>
-  </NavigationMenuItem>
 }
