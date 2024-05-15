@@ -21,8 +21,8 @@ func main() {
 	router := gin.Default()
 	router.GET("/api/page/:id", pageController.GetPageHandler)
 	router.POST("/api/page", pageController.CreatePageHandler)
-	router.PUT("/api/pages/:id", pageController.UpdatePageHandler)    // Add the update route
-	router.DELETE("/api/pages/:id", pageController.DeletePageHandler) // Add the update route
+	router.PUT("/api/pages/:id", pageController.UpdatePageHandler)
+	router.DELETE("/api/pages/:id", pageController.DeletePageHandler)
 
 	log.Println("Server starting on :8080")
 	router.Run(":8080")
